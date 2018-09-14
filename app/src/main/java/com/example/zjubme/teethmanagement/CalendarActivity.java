@@ -100,6 +100,8 @@ public class CalendarActivity extends AppCompatActivity {
                 YAxis leftAxis = chart.getAxisLeft();
                 leftAxis.setAxisMaximum(22f);
                 leftAxis.setDrawGridLines(true);
+                leftAxis.setDrawAxisLine(true);
+                leftAxis.setDrawLabels(true);
                 LimitLine ll = new LimitLine(140f, "ganleni");
                 ll.setLineColor(Color.RED);
                 ll.setLineWidth(4f);
